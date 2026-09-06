@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Student Portal</h2>
+
+            <nav>
+                <a href="#" class="active">🏠 Dashboard</a>
+                <a href="#">👤 Profile</a>
+                <a href="#">📚 Subjects</a>
+                <a href="#">📊 Attendance</a>
+                <a href="#">📝 Assignments</a>
+                <a href="#">🗓️ Timetable</a>
+                <a href="#">📢 Announcements</a>
+                <a href="#">🎓 Grades</a>
+            </nav>
+
+            <a href="#" class="logout">🚪 Logout</a>
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <header>
+                <div>
+                    <h1>Welcome back, Riya! 👋</h1>
+                    <p>Here's your academic overview.</p>
+                </div>
+
+                <div class="student-info">
+                    <strong>Riya</strong>
+                    <span>B.Tech CSE (AI & ML)</span>
+                </div>
+            </header>
+
+
+            <!-- Summary Cards -->
+            <section class="cards">
+
+                <div class="card">
+                    <h3>Attendance</h3>
+                    <p class="number">85%</p>
+                    <span>Overall attendance</span>
+                </div>
+
+                <div class="card">
+                    <h3>CGPA</h3>
+                    <p class="number">8.5</p>
+                    <span>Current semester</span>
+                </div>
+
+                <div class="card">
+                    <h3>Subjects</h3>
+                    <p class="number">6</p>
+                    <span>Current semester</span>
+                </div>
+
+                <div class="card">
+                    <h3>Assignments</h3>
+                    <p class="number">4</p>
+                    <span>Pending assignments</span>
+                </div>
+
+            </section>
+
+
+            <!-- Subjects -->
+            <section class="section">
+                <h2>My Subjects</h2>
+
+                <div class="subject-list">
+
+                    <div class="subject">
+                        <strong>Data Modeling</strong>
+                        <span>Attendance: 88%</span>
+                    </div>
+
+                    <div class="subject">
+                        <strong>Engineering Mathematics</strong>
+                        <span>Attendance: 82%</span>
+                    </div>
+
+                    <div class="subject">
+                        <strong>C Programming</strong>
+                        <span>Attendance: 90%</span>
+                    </div>
+
+                    <div class="subject">
+                        <strong>Physics</strong>
+                        <span>Attendance: 80%</span>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- Timetable and Announcements -->
+            <section class="bottom-grid">
+
+                <div class="section">
+                    <h2>Today's Timetable</h2>
+
+                    <div class="schedule">
+                        <p><strong>09:00 AM</strong> — Data Modeling</p>
+                        <p><strong>11:00 AM</strong> — Mathematics</p>
+                        <p><strong>01:00 PM</strong> — C Programming</p>
+                        <p><strong>03:00 PM</strong> — Physics</p>
+                    </div>
+                </div>
+
+
+                <div class="section">
+                    <h2>Announcements</h2>
+
+                    <div class="announcement">
+                        📢 Data Modeling assignment submission tomorrow.
+                    </div>
+
+                    <div class="announcement">
+                        📢 Mid-term examination schedule released.
+                    </div>
+
+                    <div class="announcement">
+                        📢 Check your attendance regularly.
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
