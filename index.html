@@ -157,13 +157,227 @@
 
                     <p>Total Subjects</p>
 
-                    <h2>4</h2>
+                    <h2>6</h2>
 
                     <span class="card-note">
                         Active this semester
                     </span>
+/* ===============================
+   MY SUBJECTS
+================================ */
 
-                </div>
+.subjects-section {
+    background: #ffffff;
+    padding: 26px;
+    border-radius: 20px;
+    border: 1px solid #e5ebf5;
+    box-shadow: 0 10px 30px rgba(36, 59, 99, 0.06);
+    margin-bottom: 25px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.section-header h2 {
+    color: #172554;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.section-header p {
+    color: #8995aa;
+    font-size: 11px;
+}
+
+.view-all {
+    border: none;
+    background: #edf4ff;
+    color: #2563eb;
+    padding: 8px 14px;
+    border-radius: 9px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.view-all:hover {
+    background: #2563eb;
+    color: white;
+}
+
+
+/* Subject Grid */
+
+.subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+
+/* Subject Card */
+
+.subject-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 18px;
+
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f7faff
+    );
+
+    border: 1px solid #e7edf6;
+
+    border-radius: 15px;
+
+    transition: 0.25s;
+}
+
+.subject-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.10);
+
+    border-color: #c8dafa;
+}
+
+
+/* Subject Icon */
+
+.subject-icon {
+    width: 48px;
+    height: 48px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 13px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* Different colours */
+
+.subject-icon.blue {
+    background: #e7f0ff;
+    color: #2563eb;
+}
+
+.subject-icon.purple {
+    background: #f0eaff;
+    color: #7c3aed;
+}
+
+.subject-icon.green {
+    background: #e5f8ee;
+    color: #159957;
+}
+
+.subject-icon.orange {
+    background: #fff0df;
+    color: #e58b20;
+}
+
+.subject-icon.pink {
+    background: #ffe9f1;
+    color: #db4774;
+}
+
+.subject-icon.teal {
+    background: #e2f8f7;
+    color: #159b9b;
+}
+
+
+/* Subject Content */
+
+.subject-content {
+    flex: 1;
+}
+
+.subject-content h3 {
+    color: #243454;
+
+    font-size: 14px;
+
+    margin-bottom: 5px;
+}
+
+.subject-content p {
+    color: #929daf;
+
+    font-size: 10px;
+
+    margin-bottom: 8px;
+}
+
+
+/* Progress */
+
+.subject-progress {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.progress-bar {
+    flex: 1;
+
+    height: 6px;
+
+    background: #e9eef6;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        #2563eb,
+        #06b6d4
+    );
+
+    border-radius: 10px;
+}
+
+.subject-progress strong {
+    color: #2563eb;
+
+    font-size: 11px;
+
+    min-width: 30px;
+
+    text-align: right;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .subjects-grid {
+        grid-template-columns: 1fr;
+    }
+
+}                </div>
 
 
                 <div class="stat-card">
