@@ -1,36 +1,47 @@
 # 🎓 Student Dashboard
 
-A simple and responsive **Student Dashboard** designed to display important academic and personal information in one place.
+A clean and responsive **Student Dashboard** designed to present important student information in a simple and organized interface.
 
-This project was created as a beginner-friendly web development project to practice **HTML, CSS, and basic web design concepts**.
+This project is built using **HTML5 and CSS3** and focuses on practicing the fundamentals of front-end web development, webpage structure, styling, and responsive design.
 
 ---
 
 ## 📌 Project Overview
 
-The Student Dashboard provides a clean and organized interface where students can view their basic profile and academic information.
+The Student Dashboard is a beginner-friendly web project that brings essential student information together in one place.
 
-The goal of this project is to create a simple, user-friendly dashboard while learning the fundamentals of front-end web development.
+It provides a structured interface for displaying:
+
+- Student profile information
+- Attendance percentage
+- CGPA
+- Subjects
+- Important notices
+
+The main objective of this project is to create a simple, readable, and user-friendly dashboard while developing a strong foundation in web development.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- 👤 Student profile information
-- 📊 Attendance percentage
-- 🎯 CGPA display
-- 📚 Subjects list
-- 📢 Important notices
-- 📱 Clean and responsive layout
-- 🎨 Simple and user-friendly interface
+- 👤 **Student Profile** – Displays basic student information.
+- 📊 **Attendance** – Shows the student's attendance percentage.
+- 🎯 **CGPA Display** – Presents the student's current CGPA.
+- 📚 **Subjects Section** – Displays the list of subjects.
+- 📢 **Important Notices** – Provides space for important academic updates.
+- 📱 **Responsive Layout** – Designed to provide a clean experience across different screen sizes.
+- 🎨 **Clean UI** – Simple and organized visual design.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – Structure and content
-- **CSS3** – Styling and layout
-- **Git & GitHub** – Version control and project hosting
+| Technology | Purpose |
+|------------|---------|
+| **HTML5** | Structure and content of the webpage |
+| **CSS3** | Styling, layout, and visual design |
+| **Git** | Version control |
+| **GitHub** | Repository hosting and project management |
 
 ---
 
@@ -41,4 +52,4 @@ student-dashboard/
 │
 ├── index.html
 ├── style.css
-├── README.md
+└── README.md
