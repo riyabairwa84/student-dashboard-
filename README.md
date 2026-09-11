@@ -1,47 +1,48 @@
 # 🎓 Student Dashboard
 
-A clean and responsive **Student Dashboard** designed to present important student information in a simple and organized interface.
-
-This project is built using **HTML5 and CSS3** and focuses on practicing the fundamentals of front-end web development, webpage structure, styling, and responsive design.
+A clean, responsive and interactive web-based Student Dashboard built using HTML, CSS and JavaScript.
 
 ---
 
-## 📌 Project Overview
+## 📌 About the Project
 
-The Student Dashboard is a beginner-friendly web project that brings essential student information together in one place.
+The **Student Dashboard** is a web-based application designed to display important student information in a simple, organized and user-friendly interface.
 
-It provides a structured interface for displaying:
+The dashboard brings academic and personal information together in one place, making it easier for students to view their details.
 
-- Student profile information
-- Attendance percentage
-- CGPA
-- Subjects
-- Important notices
-
-The main objective of this project is to create a simple, readable, and user-friendly dashboard while developing a strong foundation in web development.
+This project was developed as a learning project to understand the fundamentals of **front-end web development** and to practice building a complete website using HTML, CSS and JavaScript.
 
 ---
 
 ## ✨ Features
 
-- 👤 **Student Profile** – Displays basic student information.
-- 📊 **Attendance** – Shows the student's attendance percentage.
-- 🎯 **CGPA Display** – Presents the student's current CGPA.
-- 📚 **Subjects Section** – Displays the list of subjects.
-- 📢 **Important Notices** – Provides space for important academic updates.
-- 📱 **Responsive Layout** – Designed to provide a clean experience across different screen sizes.
-- 🎨 **Clean UI** – Simple and organized visual design.
+- 👤 Student Profile
+- 📊 Attendance Percentage
+- 🎯 CGPA Display
+- 📚 Subjects Information
+- 📢 Important Notices
+- 🖥️ Interactive User Interface
+- 📱 Responsive Layout
+- 🎨 Clean and Simple Design
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| **HTML5** | Structure and content of the webpage |
-| **CSS3** | Styling, layout, and visual design |
-| **Git** | Version control |
-| **GitHub** | Repository hosting and project management |
+### HTML5
+Used to create the structure and content of the Student Dashboard.
+
+### CSS3
+Used for styling, layout, spacing, colors and responsive design.
+
+### JavaScript
+Used to add interactivity and dynamic functionality to the dashboard.
+
+### Git
+Used for version control and tracking project changes.
+
+### GitHub
+Used to store, manage and showcase the project.
 
 ---
 
@@ -52,4 +53,5 @@ student-dashboard/
 │
 ├── index.html
 ├── style.css
+├── script.js
 └── README.md
