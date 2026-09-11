@@ -42,5 +42,3 @@ student-dashboard/
 ├── index.html
 ├── style.css
 ├── README.md
-└── assets/
-    └── images/
