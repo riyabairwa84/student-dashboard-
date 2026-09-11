@@ -3,9 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Student Dashboard</title>
 
@@ -16,311 +14,440 @@
 
     <div class="dashboard">
 
-        <!-- ================= SIDEBAR ================= -->
-
+        <!-- SIDEBAR -->
         <aside class="sidebar">
 
-            <h2>Student Portal</h2>
+            <div class="logo">
+                <div class="logo-icon">🎓</div>
+                <div>
+                    <h2>Student</h2>
+                    <span>Portal</span>
+                </div>
+            </div>
 
             <nav>
 
                 <a href="#" class="active">
-                    🏠 Dashboard
+                    <span>🏠</span>
+                    Dashboard
                 </a>
 
                 <a href="#">
-                    👤 Profile
+                    <span>👤</span>
+                    Profile
                 </a>
 
                 <a href="#">
-                    📚 Subjects
+                    <span>📚</span>
+                    Subjects
                 </a>
 
                 <a href="#">
-                    📊 Attendance
+                    <span>📊</span>
+                    Attendance
                 </a>
 
                 <a href="#">
-                    📝 Assignments
+                    <span>📝</span>
+                    Assignments
                 </a>
 
                 <a href="#">
-                    🗓️ Timetable
+                    <span>🗓️</span>
+                    Timetable
                 </a>
 
                 <a href="#">
-                    📢 Announcements
+                    <span>📢</span>
+                    Announcements
                 </a>
 
                 <a href="#">
-                    🎓 Grades
+                    <span>🎓</span>
+                    Grades
                 </a>
 
             </nav>
 
+            <div class="sidebar-bottom">
+                <p>Academic Year</p>
+                <strong>2026 – 27</strong>
+            </div>
+
         </aside>
 
 
-        <!-- ================= MAIN CONTENT ================= -->
-
+        <!-- MAIN CONTENT -->
         <main class="main-content">
 
-
-            <!-- ================= HEADER ================= -->
-
-            <header class="header">
+            <!-- TOP HEADER -->
+            <header class="topbar">
 
                 <div>
+                    <p class="welcome-small">STUDENT DASHBOARD</p>
 
                     <h1>
                         Welcome back, Riya! 👋
                     </h1>
 
-                    <p>
+                    <p class="subtitle">
                         Here's my academic overview.
                     </p>
+                </div>
 
+                <div class="profile-badge">
+                    <div class="avatar">R</div>
+
+                    <div>
+                        <strong>Riya</strong>
+                        <span>B.Tech CSE (AI & ML)</span>
+                    </div>
                 </div>
 
             </header>
 
 
-            <!-- ================= SUMMARY CARDS ================= -->
+            <!-- SUMMARY CARDS -->
+            <section class="stats-grid">
 
-            <section class="summary-cards">
+                <div class="stat-card attendance-card">
 
+                    <div class="stat-top">
+                        <div class="stat-icon">📊</div>
+                        <span class="status">Good</span>
+                    </div>
 
-                <!-- Attendance Card -->
+                    <p>Overall Attendance</p>
 
-                <div class="card">
+                    <h2>95%</h2>
 
-                    <h3>
-                        Attendance
-                    </h3>
+                    <div class="progress">
+                        <div class="progress-fill" style="width: 95%;"></div>
+                    </div>
 
-                    <h2>
-                        95%
-                    </h2>
-
-                    <p>
-                        Overall attendance
-                    </p>
+                    <span class="card-note">
+                        Excellent attendance
+                    </span>
 
                 </div>
 
 
-                <!-- CGPA Card -->
+                <div class="stat-card">
 
-                <div class="card">
+                    <div class="stat-top">
+                        <div class="stat-icon">⭐</div>
+                    </div>
 
-                    <h3>
-                        CGPA
-                    </h3>
+                    <p>Current CGPA</p>
 
-                    <h2>
-                        8.5
-                    </h2>
+                    <h2>8.5</h2>
 
-                    <p>
+                    <span class="card-note">
                         Current semester
-                    </p>
+                    </span>
 
                 </div>
 
 
-                <!-- Subjects Card -->
+                <div class="stat-card">
 
-                <div class="card">
+                    <div class="stat-top">
+                        <div class="stat-icon">📚</div>
+                    </div>
 
-                    <h3>
-                        Subjects
-                    </h3>
+                    <p>Total Subjects</p>
 
-                    <h2>
-                        6
-                    </h2>
+                    <h2>6</h2>
 
-                    <p>
-                        Current semester
-                    </p>
+                    <span class="card-note">
+                        Active this semester
+                    </span>
 
                 </div>
 
 
-                <!-- Semester Card -->
+                <div class="stat-card">
 
-                <div class="card">
+                    <div class="stat-top">
+                        <div class="stat-icon">🎓</div>
+                    </div>
 
-                    <h3>
-                        Semester
-                    </h3>
+                    <p>Semester</p>
 
-                    <h2>
-                        1st
+                    <h2>1st</h2>
+
+                    <span class="card-note">
+                        B.Tech CSE (AI & ML)
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- TWO COLUMN AREA -->
+            <section class="dashboard-grid">
+
+
+                <!-- SUBJECTS -->
+                <div class="panel subjects-panel">
+
+                    <div class="panel-heading">
+
+                        <div>
+                            <h2>My Subjects</h2>
+                            <p>Attendance overview</p>
+                        </div>
+
+                        <button>View All</button>
+
+                    </div>
+
+
+                    <div class="subject-list">
+
+
+                        <div class="subject">
+
+                            <div class="subject-info">
+
+                                <div class="subject-icon blue">
+                                    DM
+                                </div>
+
+                                <div>
+                                    <h3>Data Modeling</h3>
+                                    <span>Attendance</span>
+                                </div>
+
+                            </div>
+
+                            <div class="subject-result">
+
+                                <strong>96%</strong>
+
+                                <div class="mini-progress">
+                                    <div style="width:96%;"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="subject">
+
+                            <div class="subject-info">
+
+                                <div class="subject-icon purple">
+                                    C
+                                </div>
+
+                                <div>
+                                    <h3>C Programming</h3>
+                                    <span>Attendance</span>
+                                </div>
+
+                            </div>
+
+                            <div class="subject-result">
+
+                                <strong>94%</strong>
+
+                                <div class="mini-progress">
+                                    <div style="width:94%;"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="subject">
+
+                            <div class="subject-info">
+
+                                <div class="subject-icon green">
+                                    M
+                                </div>
+
+                                <div>
+                                    <h3>Engineering Mathematics</h3>
+                                    <span>Attendance</span>
+                                </div>
+
+                            </div>
+
+                            <div class="subject-result">
+
+                                <strong>95%</strong>
+
+                                <div class="mini-progress">
+                                    <div style="width:95%;"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="subject">
+
+                            <div class="subject-info">
+
+                                <div class="subject-icon orange">
+                                    P
+                                </div>
+
+                                <div>
+                                    <h3>Physics</h3>
+                                    <span>Attendance</span>
+                                </div>
+
+                            </div>
+
+                            <div class="subject-result">
+
+                                <strong>93%</strong>
+
+                                <div class="mini-progress">
+                                    <div style="width:93%;"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="subject">
+
+                            <div class="subject-info">
+
+                                <div class="subject-icon pink">
+                                    WD
+                                </div>
+
+                                <div>
+                                    <h3>Web Designing</h3>
+                                    <span>Attendance</span>
+                                </div>
+
+                            </div>
+
+                            <div class="subject-result">
+
+                                <strong>97%</strong>
+
+                                <div class="mini-progress">
+                                    <div style="width:97%;"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="subject">
+
+                            <div class="subject-info">
+
+                                <div class="subject-icon teal">
+                                    ES
+                                </div>
+
+                                <div>
+                                    <h3>Environmental Science</h3>
+                                    <span>Attendance</span>
+                                </div>
+
+                            </div>
+
+                            <div class="subject-result">
+
+                                <strong>95%</strong>
+
+                                <div class="mini-progress">
+                                    <div style="width:95%;"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROFILE -->
+                <div class="panel profile-panel">
+
+                    <div class="panel-heading">
+
+                        <div>
+                            <h2>My Profile</h2>
+                            <p>Student information</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="large-avatar">
+                        R
+                    </div>
+
+                    <h2 class="profile-name">
+                        Riya
                     </h2>
 
-                    <p>
+                    <p class="profile-course">
                         B.Tech CSE (AI & ML)
                     </p>
 
-                </div>
 
-
-            </section>
-
-
-            <!-- ================= MY SUBJECTS ================= -->
-
-            <section class="content-section">
-
-                <div class="section-header">
-
-                    <h2>
-                        My Subjects
-                    </h2>
-
-                    <p>
-                        Subject-wise attendance overview
-                    </p>
-
-                </div>
-
-
-                <div class="subjects-list">
-
-
-                    <!-- Data Modeling -->
-
-                    <div class="subject-card">
+                    <div class="profile-details">
 
                         <div>
+                            <span>Semester</span>
+                            <strong>1st Semester</strong>
+                        </div>
 
-                            <h3>
-                                Data Modeling
-                            </h3>
+                        <div>
+                            <span>Academic Year</span>
+                            <strong>2026 – 27</strong>
+                        </div>
 
-                            <p>
-                                Attendance: 96%
-                            </p>
+                        <div>
+                            <span>CGPA</span>
+                            <strong>8.5</strong>
+                        </div>
 
+                        <div>
+                            <span>Attendance</span>
+                            <strong>95%</strong>
                         </div>
 
                     </div>
-
-
-                    <!-- C Programming -->
-
-                    <div class="subject-card">
-
-                        <div>
-
-                            <h3>
-                                C Programming
-                            </h3>
-
-                            <p>
-                                Attendance: 94%
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Engineering Mathematics -->
-
-                    <div class="subject-card">
-
-                        <div>
-
-                            <h3>
-                                Engineering Mathematics
-                            </h3>
-
-                            <p>
-                                Attendance: 95%
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Physics -->
-
-                    <div class="subject-card">
-
-                        <div>
-
-                            <h3>
-                                Physics
-                            </h3>
-
-                            <p>
-                                Attendance: 93%
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Web Designing -->
-
-                    <div class="subject-card">
-
-                        <div>
-
-                            <h3>
-                                Web Designing
-                            </h3>
-
-                            <p>
-                                Attendance: 97%
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Environmental Science -->
-
-                    <div class="subject-card">
-
-                        <div>
-
-                            <h3>
-                                Environmental Science
-                            </h3>
-
-                            <p>
-                                Attendance: 95%
-                            </p>
-
-                        </div>
-
-                    </div>
-
 
                 </div>
 
             </section>
 
 
-            <!-- ================= TIMETABLE ================= -->
+            <!-- TIMETABLE -->
+            <section class="panel timetable-panel">
 
-            <section class="content-section">
+                <div class="panel-heading">
 
-                <div class="section-header">
+                    <div>
+                        <h2>Today's Timetable</h2>
+                        <p>Your scheduled classes</p>
+                    </div>
 
-                    <h2>
-                        Today's Timetable
-                    </h2>
-
-                    <p>
-                        My classes for today
-                    </p>
+                    <span class="today">
+                        TODAY
+                    </span>
 
                 </div>
 
@@ -328,85 +455,69 @@
                 <div class="timetable">
 
 
-                    <div class="class-row">
+                    <div class="class-item">
 
-                        <span class="time">
-                            09:00 AM
-                        </span>
+                        <div class="class-time">
+                            <strong>09:00</strong>
+                            <span>AM</span>
+                        </div>
 
-                        <div>
+                        <div class="class-line"></div>
 
-                            <h3>
-                                Data Modeling
-                            </h3>
-
-                            <p>
-                                Room 204
-                            </p>
-
+                        <div class="class-details">
+                            <h3>Data Modeling</h3>
+                            <p>📍 Room 204</p>
                         </div>
 
                     </div>
 
 
-                    <div class="class-row">
+                    <div class="class-item">
 
-                        <span class="time">
-                            10:00 AM
-                        </span>
+                        <div class="class-time">
+                            <strong>10:00</strong>
+                            <span>AM</span>
+                        </div>
 
-                        <div>
+                        <div class="class-line"></div>
 
-                            <h3>
-                                C Programming
-                            </h3>
-
-                            <p>
-                                Computer Lab
-                            </p>
-
+                        <div class="class-details">
+                            <h3>C Programming</h3>
+                            <p>💻 Computer Lab</p>
                         </div>
 
                     </div>
 
 
-                    <div class="class-row">
+                    <div class="class-item">
 
-                        <span class="time">
-                            11:30 AM
-                        </span>
+                        <div class="class-time">
+                            <strong>11:30</strong>
+                            <span>AM</span>
+                        </div>
 
-                        <div>
+                        <div class="class-line"></div>
 
-                            <h3>
-                                Engineering Mathematics
-                            </h3>
-
-                            <p>
-                                Room 301
-                            </p>
-
+                        <div class="class-details">
+                            <h3>Engineering Mathematics</h3>
+                            <p>📍 Room 301</p>
                         </div>
 
                     </div>
 
 
-                    <div class="class-row">
+                    <div class="class-item">
 
-                        <span class="time">
-                            01:30 PM
-                        </span>
+                        <div class="class-time">
+                            <strong>01:30</strong>
+                            <span>PM</span>
+                        </div>
 
-                        <div>
+                        <div class="class-line"></div>
 
-                            <h3>
-                                Web Designing
-                            </h3>
-
-                            <p>
-                                Computer Lab
-                            </p>
-
+                        <div class="class-details">
+                            <h3>Web Designing</h3>
+                            <p>💻 Computer Lab</p>
                         </div>
 
                     </div>
@@ -417,326 +528,163 @@
             </section>
 
 
-            <!-- ================= ASSIGNMENTS ================= -->
-
-            <section class="content-section">
-
-                <div class="section-header">
-
-                    <h2>
-                        Assignments
-                    </h2>
-
-                    <p>
-                        Academic tasks and submissions
-                    </p>
-
-                </div>
+            <!-- BOTTOM GRID -->
+            <section class="dashboard-grid bottom-grid">
 
 
-                <div class="assignment-list">
+                <!-- ASSIGNMENTS -->
+                <div class="panel">
 
-
-                    <div class="assignment">
+                    <div class="panel-heading">
 
                         <div>
-
-                            <h3>
-                                C Programming Assignment
-                            </h3>
-
-                            <p>
-                                Practice programming problems
-                            </p>
-
+                            <h2>Assignments</h2>
+                            <p>Upcoming academic tasks</p>
                         </div>
 
-                        <span>
+                    </div>
+
+
+                    <div class="task">
+
+                        <div class="task-icon">📝</div>
+
+                        <div>
+                            <h3>C Programming</h3>
+                            <p>Practice programming problems</p>
+                        </div>
+
+                        <span class="pending">
                             Pending
                         </span>
 
                     </div>
 
 
-                    <div class="assignment">
+                    <div class="task">
+
+                        <div class="task-icon">🌐</div>
 
                         <div>
-
-                            <h3>
-                                Web Designing Project
-                            </h3>
-
-                            <p>
-                                Complete and submit the webpage project
-                            </p>
-
+                            <h3>Web Designing</h3>
+                            <p>Complete webpage project</p>
                         </div>
 
-                        <span>
+                        <span class="progress-status">
                             In Progress
                         </span>
 
                     </div>
 
 
-                    <div class="assignment">
+                    <div class="task">
+
+                        <div class="task-icon">📊</div>
 
                         <div>
-
-                            <h3>
-                                Data Modeling Assignment
-                            </h3>
-
-                            <p>
-                                Complete the assigned data modeling work
-                            </p>
-
+                            <h3>Data Modeling</h3>
+                            <p>Complete assigned work</p>
                         </div>
 
-                        <span>
+                        <span class="upcoming">
                             Upcoming
                         </span>
 
                     </div>
 
-
-                </div>
-
-            </section>
-
-
-            <!-- ================= ANNOUNCEMENTS ================= -->
-
-            <section class="content-section">
-
-                <div class="section-header">
-
-                    <h2>
-                        Announcements
-                    </h2>
-
-                    <p>
-                        Important academic updates
-                    </p>
-
                 </div>
 
 
-                <div class="announcement-list">
+                <!-- ANNOUNCEMENTS -->
+                <div class="panel">
 
+                    <div class="panel-heading">
 
-                    <div class="announcement">
-
-                        <h3>
-                            📢 Assignment Submission
-                        </h3>
-
-                        <p>
-                            Check upcoming assignment deadlines
-                            and submit your work on time.
-                        </p>
+                        <div>
+                            <h2>Announcements</h2>
+                            <p>Latest updates</p>
+                        </div>
 
                     </div>
 
 
                     <div class="announcement">
 
-                        <h3>
-                            📢 Upcoming Assessment
-                        </h3>
+                        <div class="announcement-icon">
+                            📢
+                        </div>
 
-                        <p>
-                            Keep track of upcoming tests
-                            and academic activities.
-                        </p>
+                        <div>
+                            <h3>Assignment Submission</h3>
+                            <p>
+                                Check upcoming deadlines
+                                and submit work on time.
+                            </p>
+                        </div>
 
                     </div>
 
 
                     <div class="announcement">
 
-                        <h3>
-                            📢 Attendance Update
-                        </h3>
+                        <div class="announcement-icon">
+                            📅
+                        </div>
 
-                        <p>
-                            Maintain regular attendance
-                            for your courses.
-                        </p>
+                        <div>
+                            <h3>Upcoming Assessment</h3>
+                            <p>
+                                Keep track of upcoming
+                                academic activities.
+                            </p>
+                        </div>
 
                     </div>
 
+
+                    <div class="announcement">
+
+                        <div class="announcement-icon">
+                            📊
+                        </div>
+
+                        <div>
+                            <h3>Attendance Update</h3>
+                            <p>
+                                Maintain regular attendance
+                                for your courses.
+                            </p>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
             </section>
 
 
-            <!-- ================= GRADES ================= -->
-
-            <section class="content-section">
-
-                <div class="section-header">
-
-                    <h2>
-                        Academic Performance
-                    </h2>
-
-                    <p>
-                        Current semester performance
-                    </p>
-
-                </div>
-
-
-                <div class="grades">
-
-
-                    <div class="grade-item">
-
-                        <span>
-                            Current CGPA
-                        </span>
-
-                        <strong>
-                            8.5
-                        </strong>
-
-                    </div>
-
-
-                    <div class="grade-item">
-
-                        <span>
-                            Overall Attendance
-                        </span>
-
-                        <strong>
-                            95%
-                        </strong>
-
-                    </div>
-
-
-                    <div class="grade-item">
-
-                        <span>
-                            Current Semester
-                        </span>
-
-                        <strong>
-                            1st
-                        </strong>
-
-                    </div>
-
-
-                </div>
-
-            </section>
-
-
-            <!-- ================= PROFILE ================= -->
-
-            <section class="content-section">
-
-                <div class="section-header">
-
-                    <h2>
-                        My Profile
-                    </h2>
-
-                    <p>
-                        Student information
-                    </p>
-
-                </div>
-
-
-                <div class="profile-info">
-
-
-                    <div>
-
-                        <span>
-                            Name
-                        </span>
-
-                        <strong>
-                            Riya
-                        </strong>
-
-                    </div>
-
-
-                    <div>
-
-                        <span>
-                            Course
-                        </span>
-
-                        <strong>
-                            B.Tech CSE (AI & ML)
-                        </strong>
-
-                    </div>
-
-
-                    <div>
-
-                        <span>
-                            Semester
-                        </span>
-
-                        <strong>
-                            1st Semester
-                        </strong>
-
-                    </div>
-
-
-                    <div>
-
-                        <span>
-                            Academic Year
-                        </span>
-
-                        <strong>
-                            2026–27
-                        </strong>
-
-                    </div>
-
-
-                </div>
-
-            </section>
-
-
-            <!-- ================= FOOTER ================= -->
-
+            <!-- FOOTER -->
             <footer>
 
                 <p>
                     © 2026 Student Dashboard
                 </p>
 
-                <p>
-                    Built with HTML, CSS & JavaScript
-                </p>
+                <span>
+                    Built with HTML • CSS • JavaScript
+                </span>
 
             </footer>
-
 
         </main>
 
     </div>
 
 
-    <!-- JavaScript -->
-
     <script src="script.js"></script>
 
 </body>
+</html>
 
 </html>
